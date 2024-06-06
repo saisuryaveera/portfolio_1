@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function() {
   certificatesData.forEach(certificate => {
     const card = document.createElement('div');
     card.classList.add('certificate-card');
-    const imageUrl = `file:///C:/Users/Surya/Desktop/portfolio/certificates/${certificate.title}.jpg`;
+    const imageUrl = `certificates/${certificate.title}.jpg`;
     card.innerHTML = `
       <img class="certificate-image" src="${imageUrl}" alt="${certificate.title}">
       <div class="certificate-content">
