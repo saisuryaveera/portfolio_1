@@ -29,9 +29,9 @@
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <!--li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li-->
                     <li class="nav-item"><a class="nav-link" href="#awards">Acheivements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#volunteering">Volunteering</a></li>
+                    <!--li class="nav-item"><a class="nav-link" href="#volunteering">Volunteering</a></li-->
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -49,7 +49,6 @@
         <div class="container">
             <h2>About Me</h2>
             <div class="row">
-                <div class="col-md-6">
                     <p>I am passionate about leveraging technology to create innovative solutions with a positive
                         impact. As an aspiring Software Developer, I thrive on continuous learning and collaboration,
                         always seeking new opportunities to expand my skill set and contribute to meaningful projects.
@@ -59,12 +58,9 @@
                         development, including proficiency in Java, Python, SQL, and web technologies such as HTML, CSS,
                         and JavaScript. My experience spans various domains from AI and machine learning to web
                         development and cybersecurity.</p>
-                </div>
-                <div class="col-md-6">
                     <p>Outside of work, you will find me indulging in my hobbies, whether it's playing cricket,
                         numismatics, and exploring documentaries on history and politics. I am also a language
                         enthusiast who is currently learning Spanish and has a keen interest in political geography.</p>
-                </div>
             </div>
         </div>
     </section>
@@ -200,7 +196,7 @@
 
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section">
+    <section id="projects" class="section">
         <div class="container">
             <h2 class="text-center">Projects</h2>
             <div class="row">
@@ -390,17 +386,31 @@
 
 
 
-    <!-- Publications Section -->
-    <section id="publications" class="section">
-        <div class="container">
-            <h2>Publications</h2>
-            <ul class="publications-list">
-                <li>Harnessing Open Innovation for Translating Global Languages into Indian Languages - International
-                    Journal of Innovative Science and Research Technology · Apr 27, 2024</li>
-                <li>Exploring Java Development: Oasis InfoByte Internship Projects - Medium · Jan 13, 2024</li>
-            </ul>
+<!-- Publications Section -->
+<section id="publications" class="section">
+    <div class="container">
+        <h2 class="section-title">Publications</h2>
+        <div class="publications-grid">
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3 class="publication-title">Harnessing Open Innovation for Translating Global Languages into Indian Languages</h3>
+                    <p class="publication-meta">International Journal of Innovative Science and Research Technology · Apr 27, 2024</p>
+                </div>
+                <a href="https://www.ijisrt.com/harnessing-open-innovation-for-translating-global-languages-into-indian-lanuages" class="publication-button" target="_blank">View Publication</a>
+            </div>
+            <div class="publication-card">
+                <div class="publication-content">
+                    <h3 class="publication-title">Exploring Java Development: Oasis InfoByte Internship Projects</h3>
+                    <p class="publication-meta">Medium · Jan 13, 2024</p>
+                </div>
+                <a href="https://medium.com/@saisuryaveera/unveiling-the-layers-of-my-java-development-internship-with-oasis-infobyte-f8c2bc9a034a" class="publication-button" target="_blank">View Publication</a>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
+
 
     <!-- Honors & Awards Section -->
     <section id="awards" class="section bg-light">
@@ -435,31 +445,40 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section bg-light">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>You can reach out to me at:</p>
-            <p>Email: saisuryaveera@gmail.com</p>
-            <p>Twitter: <a href="https://twitter.com/surya_veera7" target="_blank">@surya_veera7</a></p>
-            <p>GitHub: <a href="https://github.com/saisuryaveera" target="_blank">@saisuryaveera</a></p>
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" id="message" rows="5" required></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </form>
+   <!-- Contact Section -->
+<section id="contact" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:saisuryaveera@gmail.com">saisuryaveera@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/saisuryaveera" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/surya_veera7" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/saisuryaveera" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
         </div>
-    </section>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Include Font Awesome -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
 
     <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
