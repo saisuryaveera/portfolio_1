@@ -13,6 +13,21 @@ body {
 .navbar-brand {
     font-weight: 700;
 }
+/* Navbar background color and text color */
+.navbar {
+    background-color: #333; /* Example background color */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff; /* Example text color */
+}
+
+/* Active link color */
+.navbar-nav .nav-link.active {
+    color: #f00; /* Example active link color */
+}
+
 
 .hero {
     background: url('Images/back.jpg');
