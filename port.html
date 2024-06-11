@@ -38,6 +38,9 @@
         </div>
     </nav>
 
+
+
+    <!-- hero section -->
     <div class="hero">
         <div class="hero-content">
             <h1>WELCOME TO MY PORTFOLIO</h1>
@@ -47,25 +50,44 @@
     </div>
 
 
+
     <!-- About Section -->
     <section id="about" class="section">
         <div class="container">
-            <h2>About Me</h2>
+            <h2 class="text-center">About Me</h2>
             <div class="row">
-                <p>My name is Sai Surya Veera. I am from a town called Mandapeta located in Konaseema district of Andhra
-                    Pradesh. I have recently completed Bachelor of Technology(B.Tech) in Computer Science Enigneering
-                    with Honors at Raghu Engineering College, Visakapatanam with a 8.9 CGPA.</p>
-                <p>I have strong foundation in Programming languages Java, Python and SQL.
-                    With diverse range of internships and projects under my belt, I honed my skills in software
-                    development, including proficiency in web technologies such as HTML, CSS,
-                    and JavaScript. My experience spans various domains from Java Development to Web Development.
-                </p>
-                <p>Outside of work, you will find me indulging in my hobbies, whether it's playing cricket,
-                    numismatics, and exploring documentaries on history and politics. I am also a language
-                    enthusiast who is currently learning Spanish and has a keen interest in political geography.</p>
+                <div class="col-12">
+                    <p class="text-justify">My name is Sai Surya Veera. I am from a town called Mandapeta located in Konaseema district of Andhra Pradesh. I have recently completed Bachelor of Technology(B.Tech) in Computer Science Engineering with Honors at Raghu Engineering College, Visakhapatnam with a 8.9 CGPA.</p>
+                    <p class="text-justify">I have a strong foundation in programming languages Java, Python, and SQL. With a diverse range of internships and projects under my belt, I have honed my skills in software development, including proficiency in web technologies such as HTML, CSS, and JavaScript. My experience spans various domains from Java Development to Web Development.</p>
+                    <p class="text-justify">Outside of work, you will find me indulging in my hobbies, whether it's playing cricket, numismatics, or exploring documentaries on history and politics. I am also a language enthusiast who is currently learning Spanish and has a keen interest in political geography.</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <style>
+        @media (max-width: 576px) {
+            #about .container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            #about .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+    </style>
+
+
 
     <!-- Skills Section -->
     <section id="skills" class="section bg-light">
@@ -75,7 +97,7 @@
                 <div class="col-md-6">
                     <h2 class="text-center">Technical Skills</h2>
                     <ul class="skills-list">
-                        <li><strong>Programming Languages:</strong> Java, Python, Bacis of (C/C++, J)</li>
+                        <li><strong>Programming Languages:</strong> Java, Python, Bacis of (C/C++)</li>
                         <li><strong>Database Management:</strong> Oracle, MySQL</li>
                         <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
                         <li><strong>Cloud Computing:</strong> Amazon Web Services (AWS), Google Cloud Platform (GCP)
@@ -99,16 +121,18 @@
         </div>
     </section>
 
+
+
     <!-- Experience Section -->
     <section id="experience" class="section">
         <div class="container">
             <h2 class="text-center">Experience</h2>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://www.linkedin.com/company/thecodeinterns/?originalSubdomain=in">
                         <div class="timeline-heading">
                             <h4>SQL Internship</h4>
-                            <p><small class="text-muted">Jan 2024 - Mar 2024</small></p>
+                            <p><small class="text-muted">Devskillhub Training and Consultancy | Remote | Jan 2024 - Mar 2024</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Worked on SQL queries and database management using MySQL and Oracle. Developed scripts
@@ -118,10 +142,10 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://oasisinfobyte.com/">
                         <div class="timeline-heading">
                             <h4>Java Development Internship</h4>
-                            <p><small class="text-muted">Dec 2023 - Jan 2024</small></p>
+                            <p><small class="text-muted">Oasis Infobyte | Remote | Dec 2023 - Jan 2024</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Participated in developing Java applications with a focus on object-oriented design and
@@ -131,10 +155,10 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://www.credly.com/org/amazon-web-services/badge/aws-academy-graduate-aws-academy-machine-learning-foundations">
                         <div class="timeline-heading">
                             <h4>AI ML Virtual Internship</h4>
-                            <p><small class="text-muted">Sep 2023 - Nov 2023</small></p>
+                            <p><small class="text-muted">AWS Academy | Remote | Sep 2023 - Nov 2023</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Engaged in projects involving AI and machine learning, including forecasting, computer
@@ -146,10 +170,10 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://bharatintern.live/">
                         <div class="timeline-heading">
                             <h4>Web Development Intern</h4>
-                            <p><small class="text-muted">Jul 2023 - Aug 2023</small></p>
+                            <p><small class="text-muted">Bharat Intern | Remote | Jul 2023 - Aug 2023</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Developed and maintained front-end components for websites using HTML, CSS, JavaScript,
@@ -160,10 +184,10 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://www.paloaltonetworks.com/services/education/introduction-to-cybersecurity">
                         <div class="timeline-heading">
                             <h4>Cyber Security Virtual Internship</h4>
-                            <p><small class="text-muted">May 2023 - Jul 2023</small></p>
+                            <p><small class="text-muted">Palo Alto Networks | Remote | May 2023 - Jul 2023</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Learned about cybersecurity fundamentals, network security, and cloud security. Gained
@@ -174,10 +198,10 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-panel">
+                    <div class="timeline-panel" data-url="https://www.blueprism.com/guides/robotic-process-automation-rpa/">
                         <div class="timeline-heading">
                             <h4>RPA Virtual Internship</h4>
-                            <p><small class="text-muted">Mar 2022 - May 2022</small></p>
+                            <p><small class="text-muted">SS&C Blue Prism | Remote | Mar 2022 - May 2022</small></p>
                         </div>
                         <div class="timeline-body">
                             <p>Worked on robotic process automation projects using Blue Prism. Developed automated
@@ -194,6 +218,15 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.querySelectorAll('.timeline-panel').forEach(panel => {
+            panel.addEventListener('click', () => {
+                window.open(panel.getAttribute('data-url'), '_blank');
+            });
+            panel.style.cursor = 'pointer';
+        });
+    </script>
+
 
 
     <!-- Projects Section -->
@@ -359,71 +392,65 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
+
     <!-- Education Section -->
-<section id="education" class="section">
-    <div class="container">
-        <h2 class="section-title">Education</h2>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-panel" id="raghu-engineering">
-                    <h3>Raghu Engineering College</h3>
-                    <p>Bachelor of Technology - Computer Science(Honors)</p>
-                    <p>Oct 2020 - May 2024</p>
-                    <p>Grade: 8.9 CGPA</p>
-                </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-panel" id="vidya-vikas">
-                    <h3>Vidya Vikas Junior College</h3>
-                    <p>Intermediate, MPC</p>
-                    <p>Jun 2018 - Mar 2020</p>
-                    <p> Grade: 9.5 CGPA</p>
-                </div>
-            </li>
-            <li>
-                <div class="timeline-panel" id="st-anns">
-                    <h3>St Ann's School</h3>
-                    <p>Primary and Secondary Education</p>
-                    <p>Jun 2017 - Mar 2018</p>
-                    <p>Grade: 9.8 CGPA</p>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-$(document).ready(function(){
-    $('#raghu-engineering').click(function(){
-        window.open('http://www.raghuenggcollege.com', '_blank'); // Open link in new tab
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-panel" id="raghu-engineering">
+                        <h3>Raghu Engineering College</h3>
+                        <p>Bachelor of Technology - Computer Science(Honors)</p>
+                        <p>Oct 2020 - May 2024</p>
+                        <p>Grade: 8.9 CGPA</p>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-panel" id="vidya-vikas">
+                        <h3>Vidya Vikas Junior College</h3>
+                        <p>Intermediate, MPC</p>
+                        <p>Jun 2018 - Mar 2020</p>
+                        <p> Grade: 9.5 CGPA</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-panel" id="st-anns">
+                        <h3>St Ann's School</h3>
+                        <p>Primary and Secondary Education</p>
+                        <p>Jun 2017 - Mar 2018</p>
+                        <p>Grade: 9.8 CGPA</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('#raghu-engineering').click(function(){
+            window.open('http://www.raghuenggcollege.com', '_blank'); // Open link in new tab
+        });
+
+        $('#vidya-vikas').click(function(){
+            window.open('https://www.manabadi.co.in/C/8022/Vidyavikas-Junior-College', '_blank'); // Open link in new tab
+        });
+
+        $('#st-anns').click(function(){
+            window.open('https://stannsmandapeta.com/', '_blank'); // Open link in new tab
+        });
     });
-
-    $('#vidya-vikas').click(function(){
-        window.open('https://www.manabadi.co.in/C/8022/Vidyavikas-Junior-College', '_blank'); // Open link in new tab
-    });
-
-    $('#st-anns').click(function(){
-        window.open('https://stannsmandapeta.com/', '_blank'); // Open link in new tab
-    });
-});
-</script>
+    </script>
 
 
 
-
-
+    <!-- Certification Section -->
     <div id="certifications" class="section">
         <h2 class="section-title">Certifications</h2>
         <div class="certificates-grid"></div>
     </div>
-
     <script src="scripts.js"></script>
-
-
-
-
-
 
 
 
@@ -457,7 +484,6 @@ $(document).ready(function(){
 
 
 
-
     <!-- Honors & Awards Section -->
     <section id="awards" class="section bg-light">
         <div class="container">
@@ -468,6 +494,9 @@ $(document).ready(function(){
             </ul>
         </div>
     </section>
+
+
+
 
     <!-- Volunteering Section -->
     <section id="volunteering" class="section">
@@ -490,6 +519,9 @@ $(document).ready(function(){
             </ul>
         </div>
     </section>
+
+
+
 
     <!-- Contact Section -->
     <section id="contact" class="section bg-light">
@@ -524,6 +556,7 @@ $(document).ready(function(){
 
     <!-- Include Font Awesome -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
 
 
 

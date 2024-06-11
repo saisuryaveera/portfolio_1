@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       title: "AWS Academy Cloud Architecting",
-      issuer: "Amazon Web Services (AWS)",
+      issuer: "AWS",
       date: "December 2023",
       url: "https://drive.google.com/file/d/126dEKDR71rVOPYkqGhXDzwY8fnG9aIDa/view?usp=drivesdk"
     },
     {
       title: "AWS Academy Machine Learning Foundations",
-      issuer: "Amazon Web Services (AWS)",
+      issuer: "AWS",
       date: "November 2023",
       url: "https://drive.google.com/file/d/1GSh19r0-YpFLeGQEPE92j8HzfQjdEsgI/view?usp=sharing"
     },
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       title: "AWS Academy Cloud Foundations",
-      issuer: "Amazon Web Services (AWS)",
+      issuer: "AWS",
       date: "December 2022",
       url: "https://www.credly.com/badges/5cca085b-499b-4175-b46c-4ff25cac3b73/linked_in_profile"
     },
@@ -131,9 +131,12 @@ document.addEventListener("DOMContentLoaded", function() {
       <img class="certificate-image" src="${imageUrl}" alt="${certificate.title}">
       <div class="certificate-content">
         <h3 class="certificate-title">${certificate.title}</h3>
-        <p class="certificate-issuer">Issuer: ${certificate.issuer}</p>
+        
         <div class="certificate-footer">
+        <div>
+         <p class="certificate-issuer">Issuer: ${certificate.issuer}</p>
           <p class="certificate-date">${certificate.date}</p>
+        </div>
           <a href="${certificate.url}" class="certificate-button" target="_blank">View</a>
         </div>
       </div>

@@ -417,7 +417,6 @@ footer a:hover {
 
 
 /* Certification Section Styles */
-/* Certification Section Styles */
 #certifications {
     padding: 50px 0;
 }
@@ -452,7 +451,7 @@ footer a:hover {
     border: 1px solid #dee2e6;
     border-radius: 5px;
     overflow: hidden;
-    height: 450px;
+    height: 400px;
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -482,17 +481,20 @@ footer a:hover {
 #certifications .certificate-title {
     font-weight: 700;
     font-size: 1em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     overflow: hidden;
     text-overflow: ellipsis;
+    height: 2.2em; /* Set a fixed height */
+    line-height: 1em;
 }
 
+#certifications .certificate-date,
 #certifications .certificate-issuer {
-    font-size: 0.9em;
-    color: #888;
+    flex: 1; /* Distribute remaining space equally */
+    margin-right: 10px; /* Add some space between elements */
 }
 
 #certifications .certificate-footer {
@@ -502,10 +504,7 @@ footer a:hover {
     margin-top: auto;
 }
 
-#certifications .certificate-date {
-    font-size: 0.9em;
-    color: #888;
-}
+
 
 #certifications .certificate-button {
     background-color: #007bff;
@@ -695,5 +694,11 @@ footer a:hover {
 
 .contact-form .btn-primary:hover {
     background-color: #0056b3;
+}
+/* Alternate section background color */
+.section:nth-of-type(odd) {
+    background-color: #e0e0e0; /* Gray background color */
+    padding-top: 60px; /* Add some padding for better readability */
+    padding-bottom: 60px; /* Add some padding for better readability */
 }
 
