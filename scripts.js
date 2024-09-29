@@ -2,6 +2,12 @@ document.addEventListener("DOMContentLoaded", function() {
   const certificatesGrid = document.querySelector('.certificates-grid');
   const certificatesData = [
     {
+      title: "Wipro TalentNext Cisco Cyber Security",
+      issuer: "Wipro",
+      date: "August 2024",
+      url: "https://cert.diceid.com/cid/6fIPEUkTvq"
+    },
+    {
       title: "Prompt Engineering and Advanced ChatGPT",
       issuer: "edX",
       date: "May 2024",
@@ -45,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       title: "Wipro TalentNext Java Full Stack",
-      issuer: "Wipro Limited",
+      issuer: "Wipro",
       date: "October 2023",
       url: "https://drive.google.com/file/d/15KqnNe1gOGQDegzuO3UAybyW0iU7mi5L/view?usp=sharing"
     },
